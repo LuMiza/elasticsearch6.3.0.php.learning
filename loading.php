@@ -14,6 +14,8 @@ include 'driver/EsModel.class.php';
 
 //model
 require 'model/ArticlesModel.php';
-require 'model/MemberModel.php';
 require 'model/GoodsModel.php';
+
+//sql
+require 'model/Sql/GoodsSql.php';
 
