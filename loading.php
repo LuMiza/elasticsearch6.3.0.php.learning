@@ -5,6 +5,7 @@ define('ROOT', str_replace('\\','/', __DIR__).'/');
 include 'vendor/autoload.php';
 require 'help/function.php';
 require 'help/Http.class.php';
+require 'help/math/Algorithm.class.php';
 require 'driver/medoo.class.php';
 
 require 'driver/inter/ElasticsearchCurd.class.php';
